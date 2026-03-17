@@ -9,7 +9,7 @@ class TaskController extends Controller
 {
     public function index()
     {
-    //dd(Task::all());
+    dd(Task::all());
 
        $data =  ['name' => 'Adam'];
        return view('task', $data);
